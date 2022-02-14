@@ -1,0 +1,25 @@
+.imgZoom:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+  }
+  .imgZoom {
+    border-Radius:50% ; 
+    border: 2px solid black;
+    height: 260px ;
+     width : 270px
+  }
+  .ShopAddress{
+    text-align: center;
+  
+  }
+  h1 , h3{
+    color: black;
+  }
+  @media screen and (max-width:1000px){
+    .imgZoom{
+      height: 215px;
+      width: 225px;
+
+    }
+  }

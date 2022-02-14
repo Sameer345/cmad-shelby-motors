@@ -1,0 +1,100 @@
+.example_e {
+    border: none;
+    background: black;
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 150%;
+    padding: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border-radius:  50px;
+    width: 180px;
+    
+    
+    }
+    .example_e:hover {
+        color: #404040 !important;
+        font-weight: 800 !important;
+        letter-spacing: 2px;
+        background: none;
+        box-shadow:white ;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.3s ease 0s;
+        }
+
+.ModelName{
+    color: #ffd700;
+     font-size: 25px;
+      margin-top: 2% ;
+       font-family:'Courier New', Courier, monospace ;
+        text-transform:uppercase 
+}
+
+@media screen and (max-width:800px)
+{
+    .ModelName{
+        font-size: 20px;
+    }
+}
+.Price{
+    color: white;
+    margin-top: -15px;
+}
+.Card{
+    background-color: black;
+    text-align: center;
+    /* transition: all .2s ease-in-out */
+}  
+.Card:hover {
+    cursor: pointer;
+    /* transform: scale(1.1) */
+    /* opacity: 0.7; */
+} 
+.CardImg{
+    height:250px ;
+     width:100%
+}
+span{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: 500;
+}
+
+
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:black;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.cardimg:hover .overlay {
+    height: 100%;
+    opacity: 0.7;
+    
+}
+  
+  .text {
+    color: white;
+    font-size: 56px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+    
+    
+	
+        

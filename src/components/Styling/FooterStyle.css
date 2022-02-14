@@ -1,0 +1,51 @@
+.fa-facebook:hover {
+    color: #3b5999;
+    
+  }
+  .fa-facebook , .fa-instagram , .fa-youtube , .fa-twitter
+  {
+    color:white;
+    
+  }
+ 
+  .fa-instagram:hover  {
+    color: #e4405f;
+    
+  }
+
+  .fa-youtube:hover {
+    color: #cd201f;
+    
+  }
+
+  .fa-twitter:hover {
+    color: #55acee;
+    
+  }
+
+  ul {
+    list-style: none;
+    text-decoration: none;
+   
+  }
+  
+  .fa:hover{
+    transform: scale(1.2)
+  }
+  .QuickList{
+    color: white;
+  }
+  .QuickList:hover{
+     text-decoration: none;
+     font-family: cursive;
+     color:#ffd700;
+  }
+  .End{
+    text-align: center;
+    color: gray;
+  }
+ 
+    
+  
+  
+  
